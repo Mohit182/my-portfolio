@@ -2,11 +2,13 @@ import "./Projects.css";
 import React from "react";
 import { ProjectsData } from "../../data/ProjectsData";
 import ProjectCard from "./ProjectCard";
+import Separator from "../../../Common/Separator/Separator";
 
 function Projects() {
   const Data = ProjectsData;
   return (
     <div className="projects">
+      <Separator />
       <label className="secction-title">Projects</label>
       <div>
         {Data.map((project) => {
