@@ -8,6 +8,8 @@
 }
 .project-photo {
   width: 40%;
+  border: 2px solid aquamarine;
+  padding: 2px;
 }
 
 .project-info {

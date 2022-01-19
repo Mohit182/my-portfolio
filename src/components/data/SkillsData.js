@@ -23,10 +23,10 @@ export const SkillsData = [
   {
     type: "Backend",
     list: [
-      {
-        name: "Node.js",
-        icon: <i className="devicon-nodejs-plain colored"></i>,
-      },
+      // {
+      //   name: "Node.js",
+      //   icon: <i className="devicon-nodejs-plain colored"></i>,
+      // },
       {
         name: "C++",
         icon: <i className="devicon-cplusplus-plain colored"></i>,

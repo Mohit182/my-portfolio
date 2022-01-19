@@ -1,22 +1,21 @@
 export const ProjectsData = [
   {
     key: 1,
-    title: "Project No 1",
-    about: "This is a project about something",
-    tags: ["React", "Redux", "Node", "Express", "MongoDB"],
-    demo: "cgszdddd",
-    github: "kzhbkhb",
+    title: "Facebook Clone",
+    about: "Developed this project using React-Js and Firebase. A complete responsive clone of Facebook, where we can upload photos and log in using Google authentication.",
+    tags: ["React", "Firebase"],
+    demo: "https://mohit182.github.io/Facebook-Clone/",
+    github: "https://github.com/Mohit182/Facebook-Clone",
     image:
-      "https://assets.skyfilabs.com/images/blog/10-interesting-web-development-projects.webp",
+      require('../../Assets/project1.png'),
   },
-
   {
     key: 2,
-    title: "Project No 2",
-    about: "This is a project description",
-    tags: ["React", "Redux", "Node", "Express", "MongoDB"],
-    demo: "sdgjg",
-    github: "sdmkhnwlka",
-    image: "https://miro.medium.com/max/2000/1*3dhg1HbPSJQFyT4VBAYwAw.png",
+    title: "Real Estate Website",
+    about: "Developed this website using React-Js and Firebase. It has advanced filters for searching properties, adding them, and adding login using authentication.",
+    tags: ["React", "Firebase"],
+    demo: "",
+    github: "",
+    image: require('../../Assets/project2.png'),
   },
 ];
