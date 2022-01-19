@@ -3,6 +3,7 @@ import "./Skills.css";
 import Separator from "../../../Common/Separator/Separator";
 import { SkillsData } from "../../data/SkillsData";
 import SkillCard from "./SkillCard";
+
 const Skills = () => {
   const data = SkillsData;
   return (
